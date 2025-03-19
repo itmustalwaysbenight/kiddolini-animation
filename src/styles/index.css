@@ -116,12 +116,17 @@ main {
   position: relative;
   top: 0;
   right: 0;
-  width: 100%;
-  height: 80vh; /* Fixed height to ensure visibility */
+  width: 80%;
+  height: 65vh;
+  margin: 0 0 0 auto;
   z-index: 0;
   overflow: hidden;
   pointer-events: auto;
-  background-color: transparent; /* Remove background to see the scene */
+  background-color: transparent;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 8px solid #FFE66D;
+  max-width: 1000px;
 }
 
 .content-section {
